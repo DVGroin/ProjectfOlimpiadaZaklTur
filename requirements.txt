@@ -1,0 +1,9 @@
+numpy
+tensorflow
+keras
+jupyter
+flask
+sqlalchemy
+pyqt5
+cryptography
+django
