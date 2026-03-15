@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from app.views import test_view, upload_audio
+from django.http import Http404
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', test_view),
+    path('upload_audio/', upload_audio, name = 'upload_audio'),
 ]
